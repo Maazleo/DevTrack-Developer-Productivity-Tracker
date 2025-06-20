@@ -8,7 +8,7 @@
 
 ## 📱 Live Demo
 
-👉 [**Try DevTrack Live**](devtrackapp.netlify.app)  
+👉 [**Try DevTrack Live**](https//devtrackapp.netlify.app)  
 
 
 ---
