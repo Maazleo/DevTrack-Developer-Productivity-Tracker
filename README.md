@@ -9,7 +9,7 @@
 ## 📱 Live Demo
 
 👉 [**Try DevTrack Live**](#)  
-_(Hosted on Flutter Web – Link will be updated soon)_
+_(devtrackapp.netlify.app)_
 
 ---
 
