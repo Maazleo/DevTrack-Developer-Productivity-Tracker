@@ -1,16 +1,72 @@
-# devtrack_developer_productivity_tracker
+# 🚀 DevTrack – Developer Productivity Tracker
 
-A new Flutter project.
+![Banner](screenshots/banner.png) <!-- Optional: Add a top banner later -->
 
-## Getting Started
+**DevTrack** is a modern productivity tracker built specifically for developers. Whether you're a freelancer, student, or full-time engineer, DevTrack helps you stay focused, manage tasks, track your coding time, and monitor your daily progress — all in one intuitive Flutter app.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Live Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+👉 [**Try DevTrack Live**](#)  
+_(Hosted on Flutter Web – Link will be updated soon)_
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## ✨ Features
+
+### 🧠 Task Management
+- Create, edit, delete, and organize coding tasks
+- Assign due time, priority (Low, Medium, High), and status
+- Daily task tracking with completion streaks
+- Beautiful, clean list UI with swipe gestures (planned)
+
+### ⏱️ Pomodoro Focus Timer
+- Customizable Pomodoro sessions (default 25/5)
+- Daily Pomodoro stats tracking
+- Visual timer with animations
+
+### 🕒 Code Time Logging
+- Start/stop timers to track actual coding time
+- Manual log entry with notes
+- Daily and weekly summaries
+
+### 📊 Productivity Dashboard
+- View focus time, completed tasks, and Pomodoros for the day
+- Productivity score based on effort and goals
+- Beautiful charts and insights (weekly trends)
+
+### 🔔 Daily Reminder Notifications
+- Optional reminders to start Pomodoro or resume work
+- End-of-day summary (planned)
+
+### 🔐 Authentication
+- Firebase Auth (Email/Password + Google Sign-In)
+- Secure local session management
+
+### 💾 Data Storage
+- Offline-first architecture using Hive or Firebase Firestore
+- Real-time sync and cloud backup support (optional)
+
+---
+
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| UI | Flutter 3.x |
+| State Management | Riverpod / Provider |
+| Storage | Hive (offline), Firestore (optional) |
+| Charts | `fl_chart` |
+| Auth | Firebase Auth |
+| Timer | `stop_watch_timer` |
+| Notifications | `flutter_local_notifications`, FCM (optional) |
+| Platform Support | Android, iOS, Web (Beta) |
+
+---
+
+## 📁 Folder Structure
+
