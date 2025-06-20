@@ -70,3 +70,62 @@ _(Hosted on Flutter Web – Link will be updated soon)_
 
 ## 📁 Folder Structure
 
+lib/
+│
+├── main.dart
+├── core/ # Themes, constants
+├── models/ # Data models
+├── services/ # Timer, auth, database logic
+├── screens/
+│ ├── home/
+│ ├── tasks/
+│ ├── dashboard/
+│ ├── timer/
+├── widgets/ # Reusable UI components
+└── providers/ # Riverpod/Provider logic
+
+yaml
+Copy
+Edit
+
+---
+
+## 📊 Productivity Score Formula
+
+> A simple metric combining task, time, and Pomodoro performance:
+
+Score = (TasksDone / TotalTasks + FocusMinutes / TargetMinutes + Pomodoros / 6) / 3 * 100
+
+yaml
+Copy
+Edit
+
+---
+
+## 🔮 Planned Features
+
+- 🟡 GitHub integration (view commits, pull requests)
+- 🗓️ Google Calendar sync
+- 📝 Daily coding journal (Markdown)
+- 📂 Project-based task grouping
+- 🎯 Goal setting and progress gamification
+- 💬 AI Assistant for task breakdowns (GPT integration)
+- 💰 Paid Pro Features (Stripe)
+- 🌐 PWA/Desktop version support
+
+---
+
+## 📦 Installation Guide
+
+### 🔧 Prerequisites
+- Flutter SDK ≥ 3.0
+- Dart ≥ 2.17
+- Firebase project (for cloud features)
+
+### 🛠️ Run Locally
+
+```bash
+git clone https://github.com/your-username/devtrack.git
+cd devtrack
+flutter pub get
+flutter run
